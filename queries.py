@@ -1,6 +1,6 @@
-dropTable = "DROP TABLE db1.applStocks"
+mysqlDropTable = "DROP TABLE db1.applStocks"
 
-createTable =  """
+mysqlCreateTable =  """
     CREATE TABLE applStocks (
     Date DATE PRIMARY KEY,
     Open DECIMAL(20,6),
@@ -12,4 +12,4 @@ createTable =  """
     )
     """
 
-extractTable = "SELECT * FROM db1.applStocks"
+mysqlExtractTable = "SELECT * FROM db1.applStocks"

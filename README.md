@@ -1,0 +1,1 @@
+ETL project to upload a CSV file containing apple stock prices to an SQL DB and a MongoDB
